@@ -8,16 +8,29 @@ This project aims to build end-to-end machine translation pipeline capable of tr
 Different neural network architectures are evaluated and compared and details of their implementation can be found in the report.
 
 
+ 
 ## Setup
+ 
+1. Create (and activate) a new environment with Python 3.6.
+** Linux or Mac: **
 
-This project requires GPU acceleration to run efficiently. Support is available to use either of the following two methods for accessing GPU-enabled cloud computing resources.
+```bash
+conda create --name mtdl python=3.6
+source activate mtdl
+```
 
+2. Clone the repository and navigate to root of the repo. Then install several dependencies.
 
-### Install
-- Python 3
-- NumPy
-- TensorFlow 1.x
-- Keras 2.x
+```bash
+git clone https://github.com/n-lamprou/MachineTranslation.git
+cd MachineTranslation
+pip install .
+```
 
+3. For using jupyter notebooks, create an IPython kernel for the cvdl environment.
+
+```bash
+python -m ipykernel install --user --name mtdl --display-name "mtdl"
+```
 
 ## Instructions
