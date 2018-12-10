@@ -20,7 +20,7 @@ if __name__ == '__main__':
     elif args.network_architecture == 'EmbedBiEncDecRNN':
         translator = Translator(EmbedBiEncDecRNN, 'EmbedBiEncDecRNN')
     else:
-        print('Choose from available options')    
+        translator = Translator(EmbedBiEncDecRNN, 'EmbedBiEncDecRNN')  
 
     # Load English data
     eng_sentences = load_data('data/small_vocab_en')

@@ -34,3 +34,21 @@ python -m ipykernel install --user --name mtdl --display-name "mtdl"
 ```
 
 ## Instructions
+
+### Training
+
+To train a translator, the `learn.py` script needs to be executed. The additional `-net` arguement is usedd to choose the network architecture to be used. An example is shown below and the flag `-h` can be used to display all options.
+
+```bash
+python learn.py -net EmbeddingRNN
+```
+
+### Translating
+
+To translate some text run the `translate.py` script,  followed by the network architecture of choice using the `-net` flag.
+In the terminal window, type in the English phrase you need to trannslate and hit return.
+
+```bash
+python translate.py -net EmbeddingRNN
+```
+
