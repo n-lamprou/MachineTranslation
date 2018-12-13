@@ -13,11 +13,13 @@ As this is meant to be a demonstration that can be implemented with limited reso
 Below is some example output. Note: Due to the limited vocabulary, if the input contains works that are not in the training set the translation will fail. Future work includes handling unknown words.
 
 **Example 1:**
+
 English: He saw a old yellow truck
 
 French: il a vu un vieux camion jaune <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>
 
 **Example 2:**
+
 English: New Jersey is sometimes calm during the autumn and it is snowy in April
 
 French: new jersey est parfois calme pendant l' automne et il est neigeux en avril <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>
